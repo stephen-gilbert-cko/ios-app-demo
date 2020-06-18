@@ -1,0 +1,16 @@
+PODS:
+  - Frames (3.0.4)
+
+DEPENDENCIES:
+  - Frames (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - Frames
+
+SPEC CHECKSUMS:
+  Frames: 3c5131144b0648ee5a6ec463ef8f25372acb18aa
+
+PODFILE CHECKSUM: 701aa401fdff5264435b6292b1b9a53d05de800d
+
+COCOAPODS: 1.9.3

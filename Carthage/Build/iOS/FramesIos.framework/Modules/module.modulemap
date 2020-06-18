@@ -1,0 +1,4 @@
+framework module FramesIos {
+  header "FramesIos-Swift.h"
+  requires objc
+}

@@ -1,0 +1,10 @@
+{
+  "commitish" : "3.0.4",
+  "iOS" : [
+    {
+      "name" : "FramesIos",
+      "hash" : "6534fd3afd8b20bd64495ce2c0844247e3780243bd2df61f34a269b195f41a23",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}

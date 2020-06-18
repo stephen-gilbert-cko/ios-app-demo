@@ -1,0 +1,7 @@
+{
+    "request_id": "3c3ad5a5-d513-44c9-92ae-f8d9b3557567",
+    "error_type": "request_invalid",
+    "error_codes": [
+        "card_number_invalid"
+    ]
+}
