@@ -23,7 +23,7 @@ class MainViewController: UIViewController, CardViewControllerDelegate {
     }
 
     var cardViewController: CardViewController {
-        let checkoutAPIClient = CheckoutAPIClient(publicKey: "pk_test_03728582-062b-419c-91b5-63ac2a481e07",
+        let checkoutAPIClient = CheckoutAPIClient(publicKey: "pk_test_7d8d24fc-ffdb-4efc-b945-a19847ce319a",
                                                   environment: .sandbox)
         let b = CardViewController(checkoutApiClient: checkoutAPIClient, cardHolderNameState: .normal, billingDetailsState: .normal, defaultRegionCode: "GB")
         b.billingDetailsAddress = CkoAddress(addressLine1: "Test line1", addressLine2: "Test line2", city: "London", state: "London", zip: "N12345", country: "GB")
@@ -44,6 +44,8 @@ class MainViewController: UIViewController, CardViewControllerDelegate {
         cardViewController.rightBarButtonItem = UIBarButtonItem(title: "Pay", style: .done, target: nil, action: nil)
         cardViewController.availableSchemes = [.visa, .mastercard, .maestro]
         cardViewController.setDefault(regionCode: "GB")
+        self.navigationController!.navigationBar.barStyle = .black
+        self.navigationController!.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
     }
     
     override func viewDidAppear(_ animated: Bool) {
